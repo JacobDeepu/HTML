@@ -1,1 +1,3 @@
-HTML pages created as part of my college lab cycle
+# HTML pages created as part of my college lab cycle
+
+- A web page to show [BIO-DATA](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp1/biodata.html)
