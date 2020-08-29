@@ -6,4 +6,6 @@
 
 - A web page to show different types of [List](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp3/list.html)
 
-- A web page to show [Table](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp4/table.html) (with dummy data) 
+- A web page to show [Table](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp4/table.html) (with dummy data)
+
+- A web page to familiarise [Frames](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp5/index.html) in HTML
