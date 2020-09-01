@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>Registration form</title>
+    <style>
+        table {
+            font-size: 22px;
+        }
+
+        th {
+            border: 0;
+            padding: 10px;
+            text-align: left;
+            vertical-align: center;
+        }
+
+        td {
+            border: 0;
+            padding: 10px;
+            text-align: left;
+            vertical-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Registration Form</h1>
+    <table align="center" border="4" width="420">
+        <form>
+            <tr>
+                <th><label for="name">Name: </label></th>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <th><label for="address">Address: </label></th>
+                <td><textarea rows="5" cols="20" name="address" id="address"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="gender">Gender: </label></th>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="dob">Date of Birth: </label></th>
+                <td><input type="date" id="dob" name="dob" value="dob"></td>
+            </tr>
+            <tr>
+                <th><label for="qualification">Qualification: </label></th>
+                <td>
+                    <select id="qualification">
+                        <option value="default">select</option>
+                        <option value="10">SSLC</option>
+                        <option value="+2">Twelfth</option>
+                        <option value="diploma">Diploma</option>
+                        <option value="degree">Degree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="experience">Experience: </label></th>
+                <td>
+                    <input type="checkbox" id="private" name="experience" value="Private">
+                    <label for="private">Private</label><br>
+                    <input type="checkbox" id="govt" name="experience" value="Government">
+                    <label for="govt">Government</label><br>
+                    <input type="checkbox" id="public" name="experience" value="Public">
+                    <label for="public">Public</label><br>
+                    <input type="checkbox" id="quasigovt" name="experience" value="Quasi Govt.">
+                    <label for="guegovt">Quasi Govt.</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="email">E-Mail ID:</label></th>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <th><label for="mob">Mobile Number:</label></th>
+                <td><input type="tel" id="mob" name="mob"></td>
+            </tr>
+            <tr>
+                <th><input type="submit" onclick="" value="Submit"></th>
+                <th style="text-align: right;"><input type="reset" value="Reset"></th>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
