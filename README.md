@@ -11,3 +11,5 @@
 - A web page to familiarise [Frames](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp5/index.html) in HTML
 
 - Registration [Form](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp6/registration-form.html)
+
+- Simple [Calculator](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp7/calculator.html) using HTML and JavaScript

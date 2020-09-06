@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <!-- Jacob Deepu Roll No. 29 -->
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+    <style>
+        td {
+            border: 1;
+            padding: 10px;
+            text-align: center;
+            vertical-align: center;
+        }
+
+        input[type=text] {
+            padding: 20px;
+            font-size: 22px;
+            color: #162234;
+            border-radius: 8px;
+            background-color: #FDFDFD;
+        }
+
+        input[type=button] {
+            padding: 20px;
+            font-size: 22px;
+            color: #FDFDFD;
+            border-radius: 8px;
+            background-color: #162234;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">CALCULATOR</h1>
+    <table align="center" border="4">
+        <tr>
+            <td colspan="3"><input type="text" name="input" id="input"></td>
+            <td><input type="button" onclick="clearAll()" value="C"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="inputData('1')" value="1"></td>
+            <td><input type="button" onclick="inputData('2')" value="2"></td>
+            <td><input type="button" onclick="inputData('3')" value="3"></td>
+            <td><input type="button" onclick="inputData('/')" value="/"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="inputData('4')" value="4"></td>
+            <td><input type="button" onclick="inputData('5')" value="5"></td>
+            <td><input type="button" onclick="inputData('6')" value="6"></td>
+            <td><input type="button" onclick="inputData('*')" value="x"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="inputData('7')" value="7"></td>
+            <td><input type="button" onclick="inputData('8')" value="8"></td>
+            <td><input type="button" onclick="inputData('9')" value="9"></td>
+            <td><input type="button" onclick="inputData('-')" value="-"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="inputData('0')" value="0"></td>
+            <td><input type="button" onclick="inputData('.')" value="."></td>
+            <td><input type="button" onclick="outputData()" value="="></td>
+            <td><input type="button" onclick="inputData('+')" value="+"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
