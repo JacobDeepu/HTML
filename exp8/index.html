@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <!-- Jacob Deepu Roll No. 29 -->
+    <title>Temperature Conversion</title>
+    <script src="index.js"></script>
+    <style>
+        td {
+            padding: 10px;
+        }
+
+        th {
+            font-size: 22px;
+            text-align: left;
+            padding: 20px 10px 0px 10px;
+        }
+
+        input[type=text] {
+            padding: 10px 0px 10px 0px;
+            font-size: 22px;
+            color: #162234;
+            background-color: #FDFDFD;
+        }
+
+        input[type=button] {
+            padding: 10px 40px 10px 40px;
+            font-size: 22px;
+            color: #FDFDFD;
+            background-color: #162234;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Temperature Conversion</h1>
+    <form name="temperature" style="text-align: center;">
+        <table align="center">
+            <tr>
+                <th>
+                    <label for="input">Input:</label>
+
+                </th>
+                <th>
+                    <label for="output">Output:</label>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="input" id="input" />
+                </td>
+                <td>
+                    <input type="text" name="output" id="output" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Fahrenheit to Celsius" onclick="fahrenheitToCelsius();" />
+
+                </td>
+                <td>
+                    <input type="button" value="Celsius to Fahrenheit" onclick="celsiusToFahrenheit();" />
+                </td>
+            </tr>
+        </table>
+        <input type="button" value="Clear" onclick="clearAll();" />
+    </form>
+</body>
+
+</html>
