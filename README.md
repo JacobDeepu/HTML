@@ -17,3 +17,5 @@
 - Temperature [Converter](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp8/index.html) using HTML and JavaScript
 
 - String [Operations](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp8/index.html) using HTML and JavaScript
+
+- Form [Validation](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp10/registration-form.html) using HTML and JavaScript

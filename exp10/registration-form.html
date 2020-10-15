@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Registration form</title>
+    <!-- Jacob Deepu Roll No. 29 -->
+    <script src="registration-form.js"></script>
+    <style>
+        table {
+            font-size: 22px;
+        }
+
+        th {
+            border: 0;
+            padding: 10px;
+            text-align: left;
+            vertical-align: center;
+        }
+
+        td {
+            border: 0;
+            padding: 10px;
+            text-align: left;
+            vertical-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Registration Form</h1>
+    <table align="center" border="4" width="420">
+        <form name="registration">
+            <tr>
+                <th><label for="name">Name: </label></th>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <th><label for="empcode">Employee Code: </label></th>
+                <td><input type="text" id="empcode" name="empcode"></td>
+            </tr>
+            <tr>
+                <th><label for="salary">Basic Salary: </label></th>
+                <td><input type="text" id="salary" name="salary"></td>
+            </tr>
+            <tr>
+                <th><label for="designation">Designation: </label></th>
+                <td>
+                    <select id="designation">
+                        <option value="default">select</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Assistant Manager">Assistant Manager</option>
+                        <option value="Clerk">Clerk</option>
+                        <option value="Peon">Peon</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="address">Address: </label></th>
+                <td><textarea rows="5" cols="20" name="address" id="address"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="gender">Gender: </label></th>
+                <td>
+                    <input type="radio" id="gender" name="gender" value="Male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="gender" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="qualification">Qualification: </label></th>
+                <td>
+                    <input type="checkbox" id="qualification" name="sslc" value="SSLC">
+                    <label for="private">SSLC</label><br>
+                    <input type="checkbox" id="qualification" name="plustwo" value="Plus Two">
+                    <label for="govt">Plus Two</label><br>
+                    <input type="checkbox" id="qualification" name="diploma" value="Diploma">
+                    <label for="public">Diploma</label><br>
+                    <input type="checkbox" id="qualification" name="others" value="Others">
+                    <label for="others">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="email">E-Mail ID:</label></th>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <th><input type="button" onclick="validate();" value="Submit"></th>
+                <th style="text-align: right;"><input type="reset" value="Reset"></th>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
