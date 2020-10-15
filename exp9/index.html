@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <!-- Jacob Deepu Roll No. 29 -->
+    <title>String Operations</title>
+    <script src="index.js"></script>
+    <style>
+        p{
+            padding: 0px;
+            font-size: 22px;
+            text-align: center;
+        }
+        td{
+            padding: 10px;
+            font-size: 22px;
+            text-align: left;
+        }
+        th {
+            padding: 10px;
+            font-size: 22px;
+            text-align: left;
+            
+        }
+        input[type=text] {
+            font-size: 22px;
+            color: #162234;
+            background-color: #FDFDFD;
+        }
+        input[type=button] {
+            font-size: 22px;
+            color: #FDFDFD;
+            padding: 4px 18px 4px 18px;
+            background-color: #162234;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">String Operations</h1>
+    <form>
+        <table align="center" border="2">
+            <tr>
+                <th>
+                    Enter the string
+                </th>
+                <td>
+                    <input type="text" name="input" id="input">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter starting index
+                </th>
+                <td>
+                    <input type="text" name="start" id="start">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Enter ending index
+                </th>
+                <td>
+                    <input type="text" name="end" id="end">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <input type="button" value="clear" onclick="clearAll();">
+                </td>
+                <td style="text-align: center;">
+                    <input type="button" value="submit" onclick="stringOperaions();">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p><label for="length" id="length"></label><p>
+    <p><label for="reverse" id="reverse"></label><p>
+    <p><label for="substring" id="substring"></label></p>
+</body>
+
+</html>

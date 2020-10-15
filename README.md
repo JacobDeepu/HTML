@@ -15,3 +15,5 @@
 - Simple [Calculator](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp7/calculator.html) using HTML and JavaScript
 
 - Temperature [Converter](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp8/index.html) using HTML and JavaScript
+
+- String [Operations](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp8/index.html) using HTML and JavaScript
