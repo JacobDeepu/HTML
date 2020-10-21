@@ -19,3 +19,6 @@
 - String [Operations](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp8/index.html) using HTML and JavaScript
 
 - Form [Validation](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp10/registration-form.html) using HTML and JavaScript
+
+- Simple [Mark list](http://htmlpreview.github.io/?https://github.com/JacobDeepu/HTML/blob/basics/exp11/mark.html) calculation program
+

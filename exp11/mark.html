@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Marklist</title>
+    <!-- Jacob Deepu Roll No. 29 -->
+    <script src="mark.js"></script>
+    <style>
+        td {
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        th {
+            padding: 10px;
+            font-size: 20px;
+            text-align: left;
+
+        }
+
+        input[type=text] {
+            font-size: 20px;
+            color: #162234;
+            background-color: #FDFDFD;
+        }
+
+        input[type=button] {
+            font-size: 20px;
+            color: #FDFDFD;
+            background-color: #162234;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center"> DATA SHEET</h1>
+    <h4 align="center">Please Enter Marks Out of 100</h4>
+    <table align="center">
+        <form name="marklist">
+            <tr>
+                <td></td>
+                <td></td>
+                <th><label for="regno">Register No:</label></th>
+                <td><input type="text" id="regno" name="regno"> </td>
+            </tr>
+            <tr>
+                <th><label for="mark1">MARK 1:</label></th>
+                <td><input type="text" id="mark1" name="mark1"></td>
+                <th><label for="mark2">MARK 2:</label></th>
+                <td><input type="text" id="mark2" name="mark2"></td>
+                <th><label for="mark3">MARK 3:</label></th>
+                <td><input type="text" id="mark3" name="mark3"></td>
+            </tr>
+            <tr>
+                <th><label for="total">TOTAL:</label></th>
+                <td><input type="text" id="total" name="total"></td>
+                <th><label for="result">RESULT:</label></th>
+                <td><input type="text" id="result" name="result"></td>
+                <th><label for="grade">GRADE:</label></th>
+                <td><input type="text" id="grade" name="grade"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="button" onclick="calculate();" value="Submit"></td>
+                <td><input type="button" onclick="clearAll();" value="Reset"></td>
+            </tr>
+        </form>
+</body>
+
+</html>
