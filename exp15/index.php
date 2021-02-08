@@ -16,25 +16,21 @@
 </html>
 
 <?php
-    $con=mysql_connect("localhost","root","mysql");
+    $con = mysqli_connect("localhost","root","root","inventory");
     if(!$con)
         echo "DB Connection error";
-
-    $db = mysql_select_db("inventory",$con);
-    if(!$db)
-        echo "DB selection error";
     
     $sql = "select * from product";
-    $res = mysql_query($sql,$con);
+    $res = mysqli_query($con,$sql);
 
     echo "<h1>PRODUCT DETAILS</h1>";
-    echo "<table border=1 align=center>"
+    echo "<table border=1 align=center>";
     echo"<tr>";
-    echo "<th>product</th>"
+    echo "<th>product</th>";
     echo "<th>inventer</th>";
     echo"</tr>";
 
-    while($row=mysql_fetch_array($res))
+    while($row=mysqli_fetch_array($res))
     {
         echo "<tr>";
         echo "<td>". $row['pname']. "</td>";

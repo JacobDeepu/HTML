@@ -21,29 +21,26 @@
 
 <?php
     $rno = $_POST["rno"];
-    $con = mysql_connect("localhost", "root", "mysql");
+    $con=mysqli_connect("localhost","root","root","student");
     if(!$con)
         echo "DB Connection error";
-    $db = mysql_select_db("student", $con);
 
-    if(!$db)
-        echo "DB selection error";
     $sql = "select * from ct where rno = '$rno'";
 
-    $res = mysql_query($sql,$con);
+    $res = mysqli_query($con,$sql);
 
     echo "<h1>STUDENT DETAILS</h1>";
-    echo "<table border=1 align=center>"
+    echo "<table border=1 align=center>";
     echo"<tr>";
-    echo "<th>Register No: </th>"
-    echo "<th>Name: </th>"
-    echo "<th>Department: </th>"
-    echo "<th>Mark 1: </th>"
-    echo "<th>Mark 2: </th>"
+    echo "<th>Register No: </th>";
+    echo "<th>Name: </th>";
+    echo "<th>Department: </th>";
+    echo "<th>Mark 1: </th>";
+    echo "<th>Mark 2: </th>";
     echo "<th>Mark 3: </th>";
     echo"</tr>";
 
-    $row = mysql_fetch_array($res);
+    $row = mysqli_fetch_array($res);
 
     echo"<tr>";
     echo"<td>". $row['rno']. "</td>";

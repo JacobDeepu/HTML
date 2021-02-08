@@ -46,16 +46,12 @@
     $m1 = $_GET["m1"];
     $m2 = $_GET["m2"];
     $m3 = $_GET["m3"];
-    $con = mysql_connect("localhost", "root", "mysql");
+    $con = mysqli_connect("localhost","root","root","student");
     if(!$con)
         echo "DB Connection error";
 
-    $db = mysql_select_db("student",$con);
-    if(!$db)
-        echo "DB selection error";
-    
     $sql = "insert into ct values ('$rno','$uname','$dept','$m1','$m2','$m3')";
-    $res=mysql_query($sql,$con);
+    $res = mysqli_query($con,$sql);
     
     if($res)
         echo"Data inserted sucessfully";
